@@ -1,2 +1,18 @@
-body{
-    color: brown;
+body{background-color:lightpink
+    }
+    
+.titulo-pagina{
+    font-size: 24pt;
+    color: blue;
+}
+
+.subtitulo-pagina{
+ font-size: 22pt;
+ color: aqua;
+}
+
+.artigo{
+    font-size: 20pt;
+    color: darkblue;
+}
+
