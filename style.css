@@ -3,17 +3,18 @@ body{background-color:lightpink
     
 .titulo-pagina{
     font-size: 24pt;
-    color: blue;
+    color: chocolate;
 }
 
 .subtitulo-pagina{
  font-size: 22pt;
- color: aqua;
+ color: chocolate;
+ text-align: center;
 }
 
 .artigo{
     font-size: 20pt;
-    color: darkblue;
+    color: chocolate;
 }
 .banner-header{
     width:100%; 
@@ -22,4 +23,31 @@ body{background-color:lightpink
     object-position: 0 90%;
 
 }
+.Produtod-Sapatos img{
+    width: 20%;
+    height: 300px;
+}
+.Produtos-Bolsas img{
+    width: 20%;
+    height: 300%;
+}
+.Produtos-Sapatos h1{
+    color: chocolate;
+    text-align: justify;
+    font-size: 28pt;
+    line-height: 3.5;
 
+}
+.Produtos-Bolsas h1{
+color: chocolate;
+text-align: justify;
+font-size: 28pt;
+line-height: 3.5;
+}.menu-navegacao ul{
+    display: flex;
+    justify-content: start;
+}
+.menu-navegacao li{
+    padding: 20px;
+    color: black;
+}
