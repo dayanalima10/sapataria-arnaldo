@@ -1,20 +1,20 @@
-body{background-color:lightpink
+body{background-color:#D0B8A8
     }
     
 .titulo-pagina{
     font-size: 24pt;
-    color: chocolate;
+    color:#DFD3C3 
 }
 
 .subtitulo-pagina{
  font-size: 22pt;
- color: chocolate;
+ color:#D0B8A8 
  text-align: center;
 }
 
 .artigo{
     font-size: 20pt;
-    color: chocolate;
+    color:#D0B8A8 ;
 }
 .banner-header{
     width:100%; 
@@ -23,6 +23,7 @@ body{background-color:lightpink
     object-position: 0 90%;
 
 }
+/* Produtos*/
 .Produtod-Sapatos img{
     width: 20%;
     height: 300px;
@@ -32,17 +33,22 @@ body{background-color:lightpink
     height: 300%;
 }
 .Produtos-Sapatos h1{
-    color: chocolate;
+    color:black;
     text-align: justify;
     font-size: 28pt;
     line-height: 3.5;
 
+
 }
 .Produtos-Bolsas h1{
-color: chocolate;
+color:black;
 text-align: justify;
 font-size: 28pt;
-line-height: 3.5;
+line-height: 3.5; 
+
+
+
+/*Menu de navegação*/
 }.menu-navegacao ul{
     display: flex;
     justify-content: start;
@@ -51,3 +57,6 @@ line-height: 3.5;
     padding: 20px;
     color: black;
 }
+
+/*rodapé*/
+.rodape
