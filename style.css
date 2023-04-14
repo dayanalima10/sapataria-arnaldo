@@ -1,53 +1,77 @@
-body{background-color:lightpink
-    }
-    
-.titulo-pagina{
+:root {
+    --cor-principal:##A4907C
+    --cor-segundaria
+
+}
+
+
+
+body {
+    background-color:#A4907C
+
+}
+
+.title-pag {
+
     font-size: 24pt;
-    color: chocolate;
+    color:black;
+    text-align:center ;
 }
 
-.subtitulo-pagina{
- font-size: 22pt;
- color: chocolate;
- text-align: center;
+.subtitle-pag {
+    font-size: 22pt;
+    color: black;
+        text-align: center;
 }
 
-.artigo{
-    font-size: 20pt;
-    color: chocolate;
+.article {
+    font-size: 22pt;
+    color: black;
+    
+
 }
-.banner-header{
-    width:100%; 
-    height:300px;
-    object-fit:cover;
+
+.banner-header {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
     object-position: 0 90%;
 
 }
-.Produtod-Sapatos img{
+
+.Product-Shoes img {
     width: 20%;
     height: 300px;
 }
-.Produtos-Bolsas img{
+
+.Product-Bags img {
     width: 20%;
     height: 300%;
 }
-.Produtos-Sapatos h1{
-    color: chocolate;
+
+.Product-Shoes h1 {
+    color: black;
     text-align: justify;
     font-size: 28pt;
     line-height: 3.5;
 
 }
-.Produtos-Bolsas h1{
-color: chocolate;
-text-align: justify;
-font-size: 28pt;
-line-height: 3.5;
-}.menu-navegacao ul{
+
+.Product-Bags h1 {
+    color: black;
+    text-align: justify;
+    font-size: 28pt;
+    line-height: 3.5;
+
+    /*menu navegação*/
+}
+
+.navegation-menu ul {
     display: flex;
     justify-content: start;
 }
-.menu-navegacao li{
+
+.navegation-menu li {
     padding: 20px;
-    color: black;
+    
 }
