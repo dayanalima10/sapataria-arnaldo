@@ -1,3 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+
+
+
+
 :root {
     --cor-principal:##A4907C
     --cor-segundaria
@@ -7,18 +14,20 @@
 
 
 body {
-    background-color:#A4907C
+    background-color:#A4907C;
+    font-family: raleway;
+    
 
 }
 
-.title-pag {
+.page-title {
 
     font-size: 24pt;
     color:black;
     text-align:center ;
 }
 
-.subtitle-pag {
+.page-subtitle {
     font-size: 22pt;
     color: black;
         text-align: center;
@@ -64,14 +73,36 @@ body {
     line-height: 3.5;
 
     /*menu navegação*/
-}
-
-.navegation-menu ul {
+.navbar  ul{
     display: flex;
     justify-content: start;
 }
 
-.navegation-menu li {
-    padding: 20px;
+.navbar li {
+padding: 20px;
     
 }
+
+}
+/*pagina de contato*/
+
+.conteiner{ 
+    display:flex;
+    justify-content: space-between;
+}
+.conteiner > aside > img{
+    width: 200px;
+}
+.conteiner h3{
+    font-size 14pt;
+    font-weight: 600;
+
+}
+
+
+
+/*rodapé*/
+.footer{
+    color
+}
+
