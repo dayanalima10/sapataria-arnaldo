@@ -6,7 +6,7 @@
 
 
 :root {
-    --cor-principal:##A4907C
+    --cor-principal:
     --cor-segundaria
 
 }
@@ -15,7 +15,7 @@
 
 body {
     background-color:#A4907C;
-    font-family: raleway;
+    font-family: Raleway, sans-serif
     
 
 }
@@ -71,19 +71,21 @@ body {
     text-align: justify;
     font-size: 28pt;
     line-height: 3.5;
-
+}
     /*menu navegação*/
-.navbar  ul{
+.navbar  ul {
     display: flex;
     justify-content: start;
+    border: 3px var(--cor-principal)
+    background-color:(--cor-principal)
 }
 
-.navbar li {
+.navbar li{
 padding: 20px;
     
 }
 
-}
+
 /*pagina de contato*/
 
 .conteiner{ 
@@ -94,15 +96,34 @@ padding: 20px;
     width: 200px;
 }
 .conteiner h3{
-    font-size 14pt;
+    font-size: 14pt;
     font-weight: 600;
 
 }
+/*formulario*/
+label, 
+button{
+display: block;
+
+}
+.contact-form{
+widt:60%;
+margi:auto;
+}
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button{
+width:100%;
+box-sizing: border-box;
+}
+
 
 
 
 /*rodapé*/
 .footer{
-    color
+text-align: center;
+font-style: italic;
 }
 

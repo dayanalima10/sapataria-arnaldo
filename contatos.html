@@ -16,7 +16,7 @@
     <header> 
     <nav class="navbar">
         <ul>
-            <li><a href="index.html">home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="Sobrenós.html">Sobre Nós</a></li>
             <li><a href="Catalago.html">Catálogo</a></li>   
             <li><a href="Contato.html">Contato</a></li>
@@ -32,7 +32,7 @@
         </header>
 <div class="conteiner">
     <main> 
-    <form action=""method="">
+    <form class= "contact-form" action=""method="">
         <label for="name"> Nome:</label>
         <input type="text" id="name" autofocus required>
 
@@ -40,7 +40,14 @@
         <input type="email" id="email" required>
 
         <label for="subject">Assunto</label>
-        <input type="text" id="subject" required>
+       
+
+        <select id="subject">
+            <option value="prazo">Prazo de entrega</option>
+            <option value="orcamento">Orçamento</option>
+            <option value="contato">Contato</option>
+            <option value="outros">Outros</option>
+        </select>
 
         <label for="message">Mensagem</label>
         <textarea id="message" cols="30" rows="5"></textarea><br>
@@ -48,7 +55,7 @@
         <label for="phone">Telefone</label>
         <input type="tel" id="phone">
 
-        <input type="submit">
+        <button>Enviar</button>
        
 
     </form>
@@ -69,7 +76,7 @@
        
     </div>
     
-    <footer>
+    <footer class="footer">
         <address>
        
             <p> Rua Forte de Leme, 52 <P>
