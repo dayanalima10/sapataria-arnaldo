@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,82 +11,77 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
 
-    
+
 </head>
+
 <body>
-    <header> 
-    <nav class="navbar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="Sobrenós.html">Sobre Nós</a></li>
-            <li><a href="Catalago.html">Catálogo</a></li>   
-            <li><a href="Contato.html">Contato</a></li>
-        </ul>
-    </nav> 
     <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Sobrenós.html">Sobre Nós</a></li>
+                <li><a href="Catalago.html">Catálogo</a></li>
+                <li><a href="Contato.html">Contato</a></li>
+            </ul>
+        </nav>
+          <h1>Contato</h1>
+          <h2>Fale Conosco</h2>
 
-    
+    </header>
+    <div class="conteiner">
+        <main>
+            <form class="contact-form" action="" method="" onsubmit="alert('Formulário enviado')">
+                <label for="name"> Nome:</label>
+                <input type="text" id="name" autofocus required>
 
-        <h1>Contato</h1>
-        <h2>Fale Conosco</h2>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" required>
 
-        </header>
-<div class="conteiner">
-    <main> 
-    <form class= "contact-form" action=""method="">
-        <label for="name"> Nome:</label>
-        <input type="text" id="name" autofocus required>
+                <label for="subject">Assunto</label>
 
-        <label for="email">E-mail</label>
-        <input type="email" id="email" required>
 
-        <label for="subject">Assunto</label>
-       
+                <select id="subject">
+                    <option value="prazo">Prazo de entrega</option>
+                    <option value="orcamento">Orçamento</option>
+                    <option value="contato">Contato</option>
+                    <option value="outros">Outros</option>
+                </select>
 
-        <select id="subject">
-            <option value="prazo">Prazo de entrega</option>
-            <option value="orcamento">Orçamento</option>
-            <option value="contato">Contato</option>
-            <option value="outros">Outros</option>
-        </select>
+                <label for="message">Mensagem</label>
+                <textarea id="message" cols="30" rows="5"></textarea><br>
 
-        <label for="message">Mensagem</label>
-        <textarea id="message" cols="30" rows="5"></textarea><br>
+                <label for="phone">Telefone</label>
+                <input type="tel" id="phone">
 
-        <label for="phone">Telefone</label>
-        <input type="tel" id="phone">
+                <button>Enviar</button>
 
-        <button>Enviar</button>
-       
 
-    </form>
+            </form>
 
-    </main>
+        </main>
 
-    <aside>
-        <img src="imgs/Sapataria-de-sucesso-1 (1).jpg" alt="Foto do local">
+        <aside>
+            <img src="imgs/Sapataria-de-sucesso-1 (1).jpg" alt="Foto do local">
 
-        <h3> Hórario de Funcionamento</h3>
+            <h3> Hórario de Funcionamento</h3>
 
-        <p> Segunda a Sexta</p>
-        <p> das 08:00 ás 17:00</p>
-        <p> Sabádo</p>
-        <P> das 09:00 ao 12:00</P>
-    </aside>
-    
-       
-    </div>
-    
+            <p> Segunda a Sexta</p>
+            <p> das 08:00 ás 17:00</p>
+            <p> Sabádo</p>
+            <P> das 09:00 ao 12:00</P>
+        </aside>
+   </div>
+
     <footer class="footer">
         <address>
-       
-            <p> Rua Forte de Leme, 52 <P>
-            <p> Jd Santa Adélia <P>
+
+            <p> Rua Forte de Leme, 52</p>
+            <p> Jd Santa Adélia</p>
             <P>São Paulo- SP</P>
-            <p>Telefone (11)3371-1279<p>
-            
+            <p>Telefone (11)3371-1279</p>
+
         </address>
-        </footer>
+    </footer>
 </body>
 
 </html>
