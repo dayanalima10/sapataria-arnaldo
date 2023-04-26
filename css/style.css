@@ -1,43 +1,31 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
-
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
 
 :root {
     --cor-principal:
-    --cor-segundaria
-
+        --cor-segundaria
 }
 
-
-
 body {
-    background-color:#A4907C;
+    background-color: #A4907C;
     font-family: Raleway, sans-serif
-    
-
 }
 
 .page-title {
 
     font-size: 24pt;
-    color:black;
-    text-align:center ;
+    color: black;
+    text-align: center;
 }
 
 .page-subtitle {
     font-size: 22pt;
     color: black;
-        text-align: center;
+    text-align: center;
 }
 
 .article {
     font-size: 22pt;
     color: black;
-    
-
 }
 
 .banner-header {
@@ -45,7 +33,6 @@ body {
     height: 300px;
     object-fit: cover;
     object-position: 0 90%;
-
 }
 
 .Product-Shoes img {
@@ -63,7 +50,6 @@ body {
     text-align: justify;
     font-size: 28pt;
     line-height: 3.5;
-
 }
 
 .Product-Bags h1 {
@@ -72,58 +58,54 @@ body {
     font-size: 28pt;
     line-height: 3.5;
 }
-    /*menu navegação*/
-.navbar  ul {
+
+/*menu navegação*/
+.navbar ul {
     display: flex;
     justify-content: start;
-    border: 3px var(--cor-principal)
-    background-color:(--cor-principal)
+    border: 3px var(--cor-principal) background-color:(--cor-principal)
 }
 
-.navbar li{
-padding: 20px;
-    
+.navbar li {
+    padding: 20px;
 }
-
 
 /*pagina de contato*/
-
-.conteiner{ 
-    display:flex;
+.conteiner {
+    display: flex;
     justify-content: space-between;
 }
-.conteiner > aside > img{
+
+.conteiner>aside>img {
     width: 200px;
 }
-.conteiner h3{
+
+.conteiner h3 {
     font-size: 14pt;
     font-weight: 600;
-
 }
+
 /*formulario*/
-label, 
-button{
-display: block;
+label,
+button {
+    display: block;
+}
 
+.contact-form {
+    widt: 60%;
+    margi: auto;
 }
-.contact-form{
-widt:60%;
-margi:auto;
-}
+
 .contact-form input,
 .contact-form textarea,
 .contact-form select,
-.contact-form button{
-width:100%;
-box-sizing: border-box;
+.contact-form button {
+    width: 100%;
+    box-sizing: border-box;
 }
-
-
-
 
 /*rodapé*/
-.footer{
-text-align: center;
-font-style: italic;
+.footer {
+    text-align: center;
+    font-style: italic;
 }
-
