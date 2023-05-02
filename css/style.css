@@ -60,6 +60,18 @@ body {
 }
 
 /*menu navegação*/
+
+a:link{
+    color: brown;
+}
+a:visited{
+    color: rgb(72, 10, 131)
+}
+a:hover{
+color: blue;
+font-size: 18pt;
+}
+
 .navbar ul {
     display: flex;
     justify-content: start;
