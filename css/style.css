@@ -35,24 +35,24 @@ body {
     object-position: 0 90%;
 }
 
-.Product-Shoes img {
+.product-shoes img {
     width: 20%;
     height: 300px;
 }
 
-.Product-Bags img {
+.product-bags img {
     width: 20%;
     height: 300%;
 }
 
-.Product-Shoes h1 {
+.product-shoes h1 {
     color: black;
     text-align: justify;
     font-size: 28pt;
     line-height: 3.5;
 }
 
-.Product-Bags h1 {
+.product-bags h1 {
     color: black;
     text-align: justify;
     font-size: 28pt;
@@ -63,7 +63,8 @@ body {
 .navbar ul {
     display: flex;
     justify-content: start;
-    border: 3px var(--cor-principal) background-color:(--cor-principal)
+    border: 3px var(--cor-principal); 
+    background-color:(--cor-principal);
 }
 
 .navbar li {
