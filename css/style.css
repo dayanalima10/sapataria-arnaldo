@@ -1,62 +1,125 @@
-body{background-color:#D0B8A8
-    }
-    
-.titulo-pagina{
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&display=swap');
+
+:root {
+    --cor-principal:
+        --cor-segundaria
+}
+
+body {
+    background-color: #A4907C;
+    font-family: Raleway, sans-serif
+}
+
+.page-title {
+
     font-size: 24pt;
-    color:#DFD3C3 
+    color: black;
+    text-align: center;
 }
 
-.subtitulo-pagina{
- font-size: 22pt;
- color:#D0B8A8 
- text-align: center;
+.page-subtitle {
+    font-size: 22pt;
+    color: black;
+    text-align: center;
 }
 
-.artigo{
-    font-size: 20pt;
-    color:#D0B8A8 ;
-}
-.banner-header{
-    width:100%; 
-    height:300px;
-    object-fit:cover;
-    object-position: 0 90%;
-
-}
-/* Produtos*/
-.Produtod-Sapatos img{
-    width: 20%;
-    height: 300px;
-}
-.Produtos-Bolsas img{
-    width: 20%;
-    height: 300%;
-}
-.Produtos-Sapatos h1{
-    color:black;
-    text-align: justify;
-    font-size: 28pt;
-    line-height: 3.5;
-
-
-}
-.Produtos-Bolsas h1{
-color:black;
-text-align: justify;
-font-size: 28pt;
-line-height: 3.5; 
-
-
-
-/*Menu de navegação*/
-}.menu-navegacao ul{
-    display: flex;
-    justify-content: start;
-}
-.menu-navegacao li{
-    padding: 20px;
+.article {
+    font-size: 22pt;
     color: black;
 }
 
+.banner-header {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 90%;
+}
+
+.product-shoes img {
+    width: 20%;
+    height: 300px;
+}
+
+.product-bags img {
+    width: 20%;
+    height: 300%;
+}
+
+.product-shoes h1 {
+    color: black;
+    text-align: justify;
+    font-size: 28pt;
+    line-height: 3.5;
+}
+
+.product-bags h1 {
+    color: black;
+    text-align: justify;
+    font-size: 28pt;
+    line-height: 3.5;
+}
+
+/*menu navegação*/
+
+a:link{
+    color: brown;
+}
+a:visited{
+    color: rgb(72, 10, 131)
+}
+a:hover{
+color: blue;
+font-size: 18pt;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: start;
+    border: 3px var(--cor-principal); 
+    background-color:(--cor-principal);
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+/*pagina de contato*/
+.conteiner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteiner>aside>img {
+    width: 200px;
+}
+
+.conteiner h3 {
+    font-size: 14pt;
+    font-weight: 600;
+}
+
+/*formulario*/
+label,
+button {
+    display: block;
+}
+
+.contact-form {
+    widt: 60%;
+    margi: auto;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form select,
+.contact-form button {
+    width: 100%;
+    box-sizing: border-box;
+}
+
 /*rodapé*/
-.rodape
+.footer {
+    text-align: center;
+    font-style: italic;
+}
+
